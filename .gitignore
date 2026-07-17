@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.env
+*.log
+*_checkpoint.json
+flagged_for_review.jsonl
+scan_report.csv
+
+# Generated pipeline outputs — regenerate by running the stages
+*_subwiki.jsonl
+subwiki.jsonl
+keywords_clean.jsonl
+keywords_v3.jsonl
+keywords_abbrevs.jsonl
+keywords_abbrevs_enriched.jsonl
+keywords_combined.jsonl
+keywords.json
+
+# Test artifacts from validating this pipeline — safe to delete
+sample_data/test_*
+sample_data/docs/
+sample_data/docs2/
+
+# Stage 0 outputs — review before committing
+00_config_generator/*.generated.py
+00_config_generator/*.generated.txt
+00_config_generator/textbook_scan_cache.json
+00_config_generator/test_escape.py
+
+# Your own textbook content — not pipeline source, don't version it here
+/docs/
