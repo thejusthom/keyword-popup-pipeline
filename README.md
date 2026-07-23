@@ -6,6 +6,8 @@ Turns a Wikipedia XML dump plus your textbook's own MDX/Markdown files into a ke
 
 This pipeline has been tested end-to-end with synthetic sample data (see "Verification" at the bottom). Two real bugs were found and fixed during that testing — see "Fixes made while building this" below.
 
+**Related repo:** [keyword-qa-pipeline](https://github.com/JanviChitroda24/keyword-qa-pipeline) picks up where this one leaves off — a multi-model (Mistral + OpenAI + Claude) quality-review and consensus layer for both the keyword set and the abbreviation set, with a review dashboard and production export. This is the working implementation of the "optional multi-model review" mentioned throughout the docs here.
+
 ---
 
 ## Folder Layout
