@@ -1,0 +1,3 @@
+[submodule "keyword-qa-pipeline"]
+	path = keyword-qa-pipeline
+	url = https://github.com/JanviChitroda24/keyword-qa-pipeline.git
